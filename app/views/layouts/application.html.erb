@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MiPrimerProyectoRails</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<nav>
+	<ul>
+		<li><a href="#info">Info</a></li>
+		<li><a href="#studies">Work</a></li>
+		<li><a href="#work">Studies</a></li>
+	</ul>
+</nav>
+<%= yield %>
+	<p>Gracias por visitar mi página, si tienes cualquier duda, por favor contáctame a <a href="#">favio.velez@hotmail.com</a>. Última actualización Noviembre de 2016</p>
+
+</body>
+</html>
